@@ -1,0 +1,142 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+
+
+/* Style pour le tableau */
+table {
+  border: black;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid red;
+}
+
+th {
+  background-color: #f4f4f9;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*le message de confirmation */
+.confirmation-message {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* Styles pour la modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.modal h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.modal label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.modal input,
+.modal textarea {
+  width: calc(100% - 20px);
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal button[type="submit"] {
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+}
+
+.modal button[type="button"] {
+  background-color: red;
+  color: white;
+}
+
+
+
+
+
+/* le formulaire d'ajout de projet */
+.new-project-form {
+  margin-top: 20px;
+}
+
+.new-project-form h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.new-project-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.new-project-form input,
+.new-project-form textarea {
+  width: calc(100% - 20px);
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.new-project-form button[type="submit"] {
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+}
+
+.new-project-form button[type="button"] {
+  background-color: red;
+  color: white;
+}
